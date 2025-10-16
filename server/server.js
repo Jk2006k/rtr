@@ -25,7 +25,10 @@ app.use("/converted", express.static(path.join(process.cwd(), "converted")))
 app.use("/uploads", express.static(path.join(process.cwd(), "uploads")))
 app.use("/extracted", express.static(path.join(process.cwd(), "extracted")))
 
-// Test React app zip file
+app.get("/", (req, res) => {
+  res.send("Welcome to the React to React Native Converter API")
+})
+
 app.get("/test-react-app.zip", (req, res) => {
   const zipPath = path.join(process.cwd(), "test-react-app.zip")
   if (fs.existsSync(zipPath)) {
