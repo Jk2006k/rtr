@@ -5,7 +5,6 @@ import { scanFiles } from './fileScanner.js'
 
 export async function convertFolder(sourceDir, targetDir) {
   const files = scanFiles(sourceDir)
-
   if (!fs.existsSync(targetDir)) fs.mkdirSync(targetDir, { recursive: true })
 
   for (const file of files) {
@@ -17,5 +16,5 @@ export async function convertFolder(sourceDir, targetDir) {
     await convertFile(file, outputDir)
   }
 
-  console.log(`All eligible files from ${sourceDir} have been converted.`)
+  console.log(`🎉 All eligible files from ${sourceDir} have been converted.`)
 }

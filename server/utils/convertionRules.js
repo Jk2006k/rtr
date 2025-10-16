@@ -22,13 +22,6 @@ export const importReplacements = {
   "styled-components": "react-native",
 }
 
-export const styleReplacements = {
-  "className": "style",
-  "style={{": "style={{",
-}
-
 export const fileExtensions = [".js", ".jsx", ".ts", ".tsx"]
 
-export const unsupportedHTMLTags = [
-  "video", "audio", "iframe", "canvas", "svg"
-]
+export const unsupportedHTMLTags = ["video", "audio", "iframe", "canvas", "svg"]
