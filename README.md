@@ -10,10 +10,15 @@ It helps developers quickly migrate their web UI into mobile environments, savin
 ## 🌟 Features
 
 ✅ **Drag & Drop Upload** — Upload your `.zip` React project directly from the browser.
+
 ✅ **Automated Conversion** — Converts HTML tags and web-specific React code to React Native equivalents.
+
 ✅ **Zipped Output Download** — Get your converted React Native app instantly as a `.zip` file.
+
 ✅ **Test Sample App** — Try the conversion using a built-in sample React project.
+
 ✅ **Auto Cleanup** — Old converted files are automatically removed from the server to save space.
+
 ✅ **Full-stack Integration** — Built with Express.js (Backend) and React.js (Frontend).
 
 ---
