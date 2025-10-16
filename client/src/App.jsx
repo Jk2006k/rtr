@@ -60,7 +60,7 @@ export default function App() {
 
     try {
       setStatus('Uploading...')
-      const res = await fetch('http://localhost:3000/upload', {
+      const res = await fetch('https://rtr-us34.onrender.com/upload', {
         method: 'POST',
         body: formData,
       })
@@ -86,7 +86,7 @@ export default function App() {
 
     try {
       setStatus('Converting...')
-      const res = await fetch('http://localhost:3000/convert', {
+      const res = await fetch('https://rtr-us34.onrender.com/convert', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ extractPath }),
@@ -100,7 +100,7 @@ export default function App() {
 
       const fullUrl = zipPath.startsWith('http')
         ? zipPath
-        : `http://localhost:3000${zipPath}`
+        : `https://rtr-us34.onrender.com${zipPath}`
 
       setDownloadLink(fullUrl)
       setStatus('Conversion completed ✅')
@@ -124,7 +124,7 @@ export default function App() {
   const handleTestFile = async () => {
     try {
       setStatus('Loading test React app...')
-      const response = await fetch('http://localhost:3000/test-react-app.zip')
+      const response = await fetch('https://rtr-us34.onrender.com/test-react-app.zip')
       if (!response.ok) throw new Error('Test file not found')
 
       const blob = await response.blob()
