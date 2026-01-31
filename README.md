@@ -1,29 +1,29 @@
 # RTR — React to React Native Converter
 
-### 🔗 Transform your React web apps into React Native mobile-ready projects in seconds!
+###  Transform your React web apps into React Native mobile-ready projects in seconds!
 
 RTR (React To React Native) is a powerful web-based tool that automatically converts existing **React.js** web applications into **React Native** code.
 It helps developers quickly migrate their web UI into mobile environments, saving countless hours of manual code rewriting.
 
 ---
 
-## 🌟 Features
+##  Features
 
-✅ **Drag & Drop Upload** — Upload your `.zip` React project directly from the browser.
+ **Drag & Drop Upload** — Upload your `.zip` React project directly from the browser.
 
-✅ **Automated Conversion** — Converts HTML tags and web-specific React code to React Native equivalents.
+ **Automated Conversion** — Converts HTML tags and web-specific React code to React Native equivalents.
 
-✅ **Zipped Output Download** — Get your converted React Native app instantly as a `.zip` file.
+ **Zipped Output Download** — Get your converted React Native app instantly as a `.zip` file.
 
-✅ **Test Sample App** — Try the conversion using a built-in sample React project.
+ **Test Sample App** — Try the conversion using a built-in sample React project.
 
-✅ **Auto Cleanup** — Old converted files are automatically removed from the server to save space.
+ **Auto Cleanup** — Old converted files are automatically removed from the server to save space.
 
-✅ **Full-stack Integration** — Built with Express.js (Backend) and React.js (Frontend).
+ **Full-stack Integration** — Built with Express.js (Backend) and React.js (Frontend).
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. **Upload your React project (.zip)**
 
@@ -48,7 +48,7 @@ It helps developers quickly migrate their web UI into mobile environments, savin
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 ### **Frontend**
 
@@ -67,21 +67,15 @@ It helps developers quickly migrate their web UI into mobile environments, savin
 
 ---
 
-## 🧹 Auto Cleanup Feature
+##  Auto Cleanup Feature
 
 The backend automatically deletes any **converted files older than 24 hours** from the `/converted` directory to optimize server storage.
 
 ---
 
-## 🌍 Deployment Links
+##  Deployment Links
 
 * **Frontend (Vercel):** [https://rtr-puce.vercel.app](https://rtr-puce.vercel.app)
 * **Backend (Render):** [https://rtr-us34.onrender.com](https://rtr-us34.onrender.com)
 
----
-
-## 👨‍💻 Author
-
-**Kishoore J**
-Full Stack Developer | Software Product Engineer 
 
